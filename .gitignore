@@ -1,0 +1,32 @@
+*.class
+#package file
+*.war
+*.ear
+
+#kdifff3 inmore
+*.orig
+
+# jar包没有忽略是因为需要提交支付宝的jar包。不忽略，maven下的jar包在本地的不会提交
+
+# eclipse ignore
+.setting/
+.project
+.classpath
+
+# idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
